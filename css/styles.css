@@ -1144,6 +1144,13 @@ img {
 
   .features-icon-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
   }
 
   /* Team section for desktop */
