@@ -394,7 +394,7 @@ img {
 .features-item-title {
   margin-bottom: 8px;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -518,6 +518,10 @@ img {
 .portfolio-image-wrapper {
   position: relative;
   overflow: hidden;
+}
+
+.portfolio-image-wrapper img {
+  width: 100%;
 }
 
 .overlay-text {
@@ -816,7 +820,7 @@ img {
 }
 
 .footer-text {
-  max-width: 264px;
+  width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
@@ -887,7 +891,6 @@ img {
 
 .footer-form-label {
   display: block;
-  width: 100%;
 }
 
 .footer-input {
@@ -1191,7 +1194,7 @@ img {
   }
 
   .footer-info {
-    margin-right: 120px;
+    margin-right: 80px;
   }
 
   .footer-social {
